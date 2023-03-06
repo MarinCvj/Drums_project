@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 3rem;
+    position: relative;
+    width: 50%;
+}
+img {
+    width: 100%;
+}
+button {
+    position: absolute;
+    padding: 1.5rem;
+    font-size: larger;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px rgb(10, 10, 10, 0.2);
+    transition: all 0.3s;
+}
+button:hover {
+    background-color: black;
+    color: white;
+}
+.open-hi-hat {    
+    top: 15%;
+    left: 5%;
+}
+.closed-hi-hat {    
+    top: 15%;
+    left: 20%;
+}
+.foot-hi-hat {    
+    top: 90%;
+    left: 30%;
+}
+.snare {    
+    top: 36%;
+    left: 33%;
+}
+.tom1 {    
+    top: 20%;
+    left: 40%;
+}
+.tom2 {    
+    top: 19%;
+    left: 60%;
+}
+.tom3 {    
+    top: 35%;
+    left: 75%;
+}
+.bass {    
+    top: 80%;
+    left: 53%;
+}
+.crash {
+    top: 0%;
+    left: 60%;
+}
